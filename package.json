@@ -1,13 +1,12 @@
 {
-  "name": "willom-backend",
+  "name": "fight-club-backend",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
     "build": "tsc",
-    "start": "node ./dist/app.js",
-    "heroku-postbuild": "npm run build && prisma generate && prisma migrate deploy"
+    "start": "node ./dist/app.js"
   },
   "keywords": [],
   "author": "",
