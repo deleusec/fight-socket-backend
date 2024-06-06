@@ -1,0 +1,49 @@
+# Fichiers de configuration de l'environnement
+.env
+.env.*
+
+# Dossiers node_modules
+/node_modules
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Répertoires de l'éditeur
+/.idea
+/.vscode
+
+# Systèmes d'exploitation
+.DS_Store
+Thumbs.db
+
+# Dossiers de build et de compilation
+/dist
+/build
+/.pnp
+.pnp.js
+
+# Fichiers de cache
+.npm
+.yarn
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Fichiers de couverture
+/coverage
+
+# Fichiers temporaires
+/tmp
+
+# Fichiers Prisma
+/prisma/dev.db
+/prisma/*.lock
+
+# Autres fichiers et répertoires spécifiques au projet
+# À ajouter selon les besoins
