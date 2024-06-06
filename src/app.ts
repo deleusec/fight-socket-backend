@@ -20,7 +20,8 @@ const limiter = rateLimit({
 
 app.use(cors(
   {
-    origin: process.env.CLIENT_URL,
+    // Allow requests from all origins
+    origin: '*',
     credentials: true,
   }
 ));
