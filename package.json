@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "nodemon",
-    "build": "tsc",
+    "build": "install && tsc",
     "start": "node ./dist/app.js",
     "heroku-postbuild": "npm run build && prisma generate && prisma migrate deploy"
   },
