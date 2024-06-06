@@ -10,7 +10,7 @@ import log from './utils/logger';
 
 dotenv.config();
 
-const app: Express = express();
+const app = express();
 const server = createServer(app);
 const port = process.env.PORT || 3000;
 const limiter = rateLimit({
